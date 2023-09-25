@@ -1,0 +1,60 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *;
+.navbar {
+  background-color: $gray;
+  .container {
+    .navbar-brand {
+      font-weight: 550;
+      font-size: 36px;
+      color: $dark;
+      text-shadow: $th5-shadow;
+      margin-bottom: 5px;
+      span {
+        color: $orange;
+      }
+    }
+    .navbar-toggler {
+      .menu-icon {
+        color: $orange;
+      }
+    }
+    .collapse {
+      .navbar-nav {
+        // margin-left: 20px;
+        .nav-item {
+          .nav-link {
+            letter-spacing: 1px;
+            font-size: 16px;
+            font-weight: 550;
+            border-radius: 3px;
+            color: $dark;
+            transition: $transition-1th;
+            &:hover {
+              background: $mustard;
+              color: $light;
+            }
+          }
+        }
+      }
+      form {
+        input {
+          &:focus{
+            border-color:$orange !important;
+            box-shadow:0 0 0 0.25rem  $Semi-Transparent-Orange !important;
+          }
+        }
+        button {
+          background-color: $orange;
+          color: $light;
+          outline: none;
+          border: none;
+          transition: $transition-1th;
+          &:hover {
+            background-color: $light;
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+}

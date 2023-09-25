@@ -1,0 +1,10 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *;
+
+* {
+  @include prefixer(box-sizing, border-box, ("webkit", "moz", "o", "ms"));
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+}

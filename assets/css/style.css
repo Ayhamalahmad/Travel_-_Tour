@@ -1,0 +1,240 @@
+* {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  background-color: #f9f9f9;
+}
+.navbar .container .navbar-brand {
+  font-weight: 550;
+  font-size: 36px;
+  color: black;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 5px;
+}
+.navbar .container .navbar-brand span {
+  color: #ffa500;
+}
+.navbar .container .navbar-toggler .menu-icon {
+  color: #ffa500;
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 550;
+  border-radius: 3px;
+  color: black;
+  transition: 0.3s ease;
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+  background: #EEC048;
+  color: #fff;
+}
+.navbar .container .collapse form input:focus {
+  border-color: #ffa500 !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 165, 0, 0.5) !important;
+}
+.navbar .container .collapse form button {
+  background-color: #ffa500;
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: 0.3s ease;
+}
+.navbar .container .collapse form button:hover {
+  background-color: #fff;
+  color: #ffa500;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.paddings {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+@media (min-width:1200px) {
+  .paddings {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.xPaddings {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.yPaddings {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media (min-width:992px) {
+  .yPaddings {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.primaryText {
+  font-size: 3rem;
+  font-weight: bold;
+}
+@media (max-width: (max-width:767px)) {
+  .primaryText {
+    font-size: 2.5rem;
+  }
+}
+
+.secondaryText {
+  line-height: 50px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+@media (max-width: (max-width:767px)) {
+  .secondaryText {
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffa500;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 165, 0, 0.5);
+}
+
+.home {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width:767px) {
+  .home {
+    background-position: 50%;
+  }
+}
+.home .content {
+  text-align: center;
+  padding-top: 200px;
+}
+.home .content h5,
+.home .content h1,
+.home .content p {
+  color: #fff;
+  text-shadow: 0px 1px 1px black;
+}
+.home .content h1,
+.home .content p {
+  margin-top: 5px;
+}
+.home .content h5 {
+  font-size: 38px;
+  font-weight: 550;
+}
+@media (max-width:767px) {
+  .home .content h5 {
+    font-size: 25px;
+  }
+}
+.home .content h1 {
+  font-size: 70px;
+  font-weight: 550;
+}
+@media (max-width:767px) {
+  .home .content h1 {
+    font-size: 38px;
+  }
+}
+.home .content h1 .countries::after {
+  content: " ";
+  color: #ffa500;
+  text-shadow: 0px 1px 1px black;
+  animation: changetext 10s infinite linear;
+}
+@keyframes changetext {
+  0% {
+    content: "France";
+  }
+  10% {
+    content: "Spain";
+  }
+  20% {
+    content: "United States";
+  }
+  30% {
+    content: "China";
+  }
+  40% {
+    content: "India";
+  }
+  50% {
+    content: "Pakistan";
+  }
+  60% {
+    content: "Italy";
+  }
+  70% {
+    content: "Turkey";
+  }
+  80% {
+    content: "Mexico";
+  }
+  90% {
+    content: "Germany";
+  }
+  100% {
+    content: "United kingdom";
+  }
+}
+.home .content p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.home .content a {
+  padding: 10px;
+  background: #fff;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 550;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.home .content a:hover {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+/*Start Footer*/
+/*End Footer*//*# sourceMappingURL=style.css.map */
