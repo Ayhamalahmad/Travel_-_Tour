@@ -1,0 +1,25 @@
+@use "../utils/variables" as *;
+.gallary{
+    margin-top: 50px;
+    .container{
+        .main-text{
+            h1{
+                padding-top: 20px;
+            }
+        }
+        .row{
+            margin-top: 30px;
+            .card{
+                box-shadow: $th7-shadow;
+                cursor: pointer;
+                img{
+                    height: 230px;
+                    transition: $transition-2th;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
