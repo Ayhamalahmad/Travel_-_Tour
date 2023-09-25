@@ -2,22 +2,26 @@
 .book {
   background-color: $gray;
   padding: 50px;
-  height: 100vh;
   @media #{$maxMobile} {
     padding: 0;
   }
+  // @media #{$minSmall} {
+  //   height: 100vh;
+  // position: relative;  
+
+  // }
   .container {
     .main-text {
       h1 {
-        text-align: center;
-        text-shadow: $text-primary-shadow;
-        font-weight: 600;
+        // text-align: center;
+        // text-shadow: $text-primary-shadow;
+        // font-weight: 600;
         @media #{$maxMobile} {
             margin-top: 20px;
             // padding: 20px;
         }
         span {
-          color: $orange;
+          // color: $orange;
         }
       }
     }

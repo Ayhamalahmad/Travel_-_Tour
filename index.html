@@ -30,7 +30,9 @@
     <!-- Start Navber -->
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><span>T</span>ravel</a>
+        <a class="navbar-brand text-capitalize" href="index.html"
+          ><span>t</span>ravel</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -40,24 +42,24 @@
           <span><i class="fa-solid fa-bars menu-icon"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
+          <ul class="navbar-nav me-auto text-capitalize">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#book">Book</a>
+              <a class="nav-link" href="#book">book</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#packages">Packages</a>
+              <a class="nav-link" href="#packages">packages</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#services">services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallary">Gallary</a>
+              <a class="nav-link" href="#gallary">gallary</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about">about</a>
             </li>
           </ul>
           <form class="d-flex mt-2 mt-md-0" role="search">
@@ -66,8 +68,11 @@
               type="search"
               placeholder="Search"
             />
-            <button class="btn btn-outline-success main-btn" type="button">
-              Search
+            <button
+              class="btn btn-outline-success main-btn text-capitalize"
+              type="button"
+            >
+              search
             </button>
           </form>
         </div>
@@ -79,12 +84,12 @@
     <!-- Start landing -->
     <section class="home">
       <div class="content container-sm">
-        <h5>Welcome To World</h5>
-        <h1>Visit <span class="countries"></span></h1>
+        <h5 class="text-capitalize">welcome to world</h5>
+        <h1 class="text-capitalize">visit <span class="countries"></span></h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, nisi.
         </p>
-        <a class="btn main-btn" href="#book">Book Place</a>
+        <a class="btn main-btn text-capitalize" href="#book">book place</a>
       </div>
     </section>
     <!-- End landing -->
@@ -93,7 +98,7 @@
     <section class="book" id="book">
       <div class="container">
         <div class="main-text">
-          <h1><span>b</span>ook</h1>
+          <h1 class="text-capitalize"><span>b</span>ook</h1>
         </div>
         <div class="row">
           <div class="col-md-6 py-3 py-md-0">
@@ -104,18 +109,182 @@
 
           <div class="col-md-6 py-3 py-md-0">
             <form action="#">
-              <input type="text" class="form-control" placeholder="Where To" ><br>
-              <input type="text" class="form-control" placeholder="How Many" ><br>
-              <input type="date" class="form-control" placeholder="Arrivals" ><br>
-              <input type="date" class="form-control" placeholder="Leaving" ><br>
-              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
-              <input type="submit" value="Book Now" class="submit btn main-btn" >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Where To"
+              /><br />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="How Many"
+              /><br />
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Arrivals"
+              /><br />
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Leaving"
+              /><br />
+              <textarea
+                class="form-control"
+                rows="5"
+                name="text"
+                placeholder="Enter Your Name & Details"
+              ></textarea>
+              <input
+                type="submit"
+                value="Book Now"
+                class="submit btn main-btn"
+              />
             </form>
           </div>
         </div>
       </div>
     </section>
     <!-- End Book Section -->
+
+    <!-- Start Packages -->
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>p</span>ackages</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="assets/images/uk.png" alt="" />
+              <div class="card-body">
+                <h3>United Kingdom</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  doloribus!
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="">Price: <strong>$500</strong></h6>
+                <a class="btn main-btn" href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="assets/images/france.png" alt="" />
+              <div class="card-body">
+                <h3>France</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  doloribus!
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="">Price: <strong>$500</strong></h6>
+                <a class="btn main-btn" href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="assets/images/pakistan.png" alt="" />
+              <div class="card-body">
+                <h3>Pakistan</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  doloribus!
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="">Price: <strong>$500</strong></h6>
+                <a class="btn main-btn" href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="assets/images/italy.png" alt="" />
+              <div class="card-body">
+                <h3>Italy</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  doloribus!
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="">Price: <strong>$500</strong></h6>
+                <a class="btn main-btn" href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="assets/images//india.png" alt="" />
+              <div class="card-body">
+                <h3>India</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  doloribus!
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="">Price: <strong>$500</strong></h6>
+                <a class="btn main-btn" href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="assets/images//us.png" alt="" />
+              <div class="card-body">
+                <h3>United States</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  doloribus!
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="">Price: <strong>$500</strong></h6>
+                <a class="btn main-btn" href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+    <!-- End Packages -->
 
     <script src="/javascript/index.js"></script>
     <script src="/javascript/bootstrap.bundle.js"></script>

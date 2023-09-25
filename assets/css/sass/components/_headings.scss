@@ -1,0 +1,12 @@
+@use "../utils/variables" as *;
+.main-text {
+    h1 {
+      text-align: center;
+      text-shadow: $text-primary-shadow;
+      font-weight: 600;
+      text-transform: capitalize;
+      span {
+        color: $orange;
+      }
+    }
+  }
