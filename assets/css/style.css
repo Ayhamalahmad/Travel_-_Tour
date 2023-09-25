@@ -254,6 +254,31 @@ a {
   background-color: rgba(255, 165, 0, 0.5);
 }
 
+.about {
+  margin-top: 50px;
+  background-color: #f9f9f9;
+}
+.about .container .main-text h1 {
+  padding-top: 30px;
+}
+.about .container .main-text h1 span {
+  padding-left: 10px;
+}
+.about .container .row {
+  margin-top: 50px;
+}
+.about .container .row .texts h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.about .container .row .texts p {
+  font-weight: 500;
+}
+.about .container .row .texts button {
+  font-weight: 550;
+  letter-spacing: 2px;
+}
+
 .home {
   width: 100%;
   height: calc(100vh - 85px);

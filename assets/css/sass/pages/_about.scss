@@ -1,0 +1,36 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *;
+
+.about {
+//    do not forget to delete height
+//    height: 100vh;
+   margin-top: 50px;
+   background-color: $gray;
+  .container {
+    .main-text {
+      h1 {
+        padding-top: 30px;
+        span {
+            padding-left: 10px;
+        }
+      }
+    }
+
+    .row {
+      margin-top: 50px;
+      .texts{
+        h2{
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        p{
+            font-weight: 500;
+        }
+        button{
+            font-weight: 550;
+            letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
