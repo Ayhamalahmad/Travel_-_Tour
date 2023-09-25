@@ -1,3 +1,20 @@
+textarea:focus, input:focus {
+  border-color: #ffa500 !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 165, 0, 0.5) !important;
+}
+
+.main-btn {
+  background-color: #ffa500;
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: 0.5s ease;
+}
+.main-btn:hover {
+  background-color: #fff;
+  color: #ffa500;
+}
+
 * {
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -33,23 +50,55 @@
   transition: 0.3s ease;
 }
 .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
-  background: #EEC048;
+  background: #eec048;
   color: #fff;
 }
-.navbar .container .collapse form input:focus {
-  border-color: #ffa500 !important;
-  box-shadow: 0 0 0 0.25rem rgba(255, 165, 0, 0.5) !important;
+.book {
+  background-color: #f9f9f9;
+  padding: 50px;
+  height: 100vh;
 }
-.navbar .container .collapse form button {
-  background-color: #ffa500;
-  color: #fff;
-  outline: none;
-  border: none;
-  transition: 0.3s ease;
+@media (max-width:767px) {
+  .book {
+    padding: 0;
+  }
 }
-.navbar .container .collapse form button:hover {
-  background-color: #fff;
+.book .container .main-text h1 {
+  text-align: center;
+  text-shadow: 0px 1px 1px black;
+  font-weight: 600;
+}
+@media (max-width:767px) {
+  .book .container .main-text h1 {
+    margin-top: 20px;
+  }
+}
+.book .container .main-text h1 span {
   color: #ffa500;
+}
+.book .container .row {
+  margin-top: 30px;
+}
+.book .container .row .card {
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px -6px black;
+}
+.book .container .row form input[type=submit] {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 550;
+  width: 160px;
+}
+.book .container .row form input[type=submit]:hover {
+  width: 170px;
+}
+@media (max-width:767px) {
+  .book .container .row form input[type=submit] {
+    width: 100%;
+  }
+  .book .container .row form input[type=submit]:hover {
+    width: 100%;
+  }
 }
 
 ul,
@@ -229,16 +278,9 @@ a {
 }
 .home .content a {
   padding: 10px;
-  background: #fff;
-  color: black;
   letter-spacing: 2px;
   font-weight: 550;
   border-radius: 5px;
-  transition: 0.3s ease;
-}
-.home .content a:hover {
-  background-color: #ffa500;
-  color: #fff;
 }
 
 /*Start Footer*/

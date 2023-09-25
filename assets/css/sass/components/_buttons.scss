@@ -1,0 +1,12 @@
+@use "../utils/variables" as *;
+.main-btn {
+  background-color: $orange;
+  color: $light;
+  outline: none;
+  border: none;
+  transition: $transition-2th;
+  &:hover {
+    background-color: $light;
+    color: $orange;
+  }
+}

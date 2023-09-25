@@ -88,16 +88,9 @@
     }
     a {
       padding: 10px;
-      background: $light;
-      color: $dark;
       letter-spacing: 2px;
       font-weight: 550;
       border-radius: 5px;
-      transition: $transition-1th;
-      &:hover {
-        background-color: $orange;
-        color: $light;
-      }
     }
   }
 }

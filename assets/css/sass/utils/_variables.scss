@@ -11,37 +11,33 @@ $minLarge: "(min-width:1200px)";
 // Colors
 $dark: black;
 $orange: #ffa500;
-$Semi-Transparent-Orange:rgb(255 165 0 / 50%);
+$Semi-Transparent-Orange: rgb(255 165 0 / 50%);
 $gray: #f9f9f9;
 $light: #fff;
 
-$primary: #0D2F3F;
+$primary: #0d2f3f;
 $bg-primary: #f8f7f1;
-$secondary-white: #E7E7E7;
-$teal: #286F6C;
-$mustard: #EEC048;
-$coral: #F26440;
+$secondary-white: #e7e7e7;
+$teal: #286f6c;
+$mustard: #eec048;
+$coral: #f26440;
 $custom-color: #0000000d;
 $semi-transparent-black: rgba(0, 0, 0, 0.04);
-$bg-line:linear-gradient(
-    black 33%,
-    rgba(255, 255, 255, 0) 0%
-  );
+$bg-line: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
 // $semi-transparent-black: #0000000d;
 $transparent-black: rgba(0, 0, 0, 0.13); // Equivalent to #00000021
 $lightBlack: rgb(0 0 0 / 5%);
 $lightGray: rgb(234, 234, 234);
 $mediumGray: rgb(172, 172, 172);
 
-
-// Shadow
-$primary-shadow:0 4px 4px $semi-transparent-black;
+//box Shadows
+$primary-shadow: 0 4px 4px $semi-transparent-black;
 $secondary-shadow: 0px 21px 13px $semi-transparent-black;
 $th3-shadow: 0 21px 13px $transparent-black;
 $th4-shadow: $lightBlack -3px 11px 13px 0px;
-$th5-shadow: 0px 1px 1px $dark;
-// text shadow
-$text-primary-shadow:0px 1px 1px $dark;
-// 
+$th6-shadow: 0px 5px 5px -6px $dark;
+// text shadows
+$text-primary-shadow: 0px 1px 1px $dark;
 // transitions
 $transition-1th: 0.3s ease;
+$transition-2th: 0.5s ease;
