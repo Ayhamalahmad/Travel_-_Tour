@@ -4,8 +4,13 @@
 .about {
 //    do not forget to delete height
 //    height: 100vh;
-   margin-top: 50px;
-   background-color: $gray;
+//    margin-top: 50px;
+padding: 50px;
+background-color: $gray;
+@media #{$maxMobile} {
+       padding: 10px;
+    
+   }
   .container {
     .main-text {
       h1 {

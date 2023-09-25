@@ -1,4 +1,52 @@
 @use "../utils/variables" as *;
 /*Start Footer*/
+.footer{
+    width: 100%;
+    padding-top: 150px;
+    // background-color: $gray;
+    .main-text{
+        h1{
+            // font-weight: 600;
+            // margin-top: 30px;
+        }
+    }
 
+
+    p{}
+
+
+    .social-links{
+       
+        i,svg{
+            font-size: 20px;
+            background-color: $dark;
+            padding: 10px;
+            color: $light;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: $transition-2th;
+            &:hover{
+                background-color: $orange;
+
+            }
+        }
+    }
+
+
+    .credit{
+        p{
+            a{}
+        }
+    }
+
+
+
+    .copyright{
+        padding-top: 20px;
+        p{}
+    }
+
+}
 /*End Footer*/

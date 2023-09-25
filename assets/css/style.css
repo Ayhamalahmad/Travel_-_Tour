@@ -255,8 +255,13 @@ a {
 }
 
 .about {
-  margin-top: 50px;
+  padding: 50px;
   background-color: #f9f9f9;
+}
+@media (max-width:767px) {
+  .about {
+    padding: 10px;
+  }
 }
 .about .container .main-text h1 {
   padding-top: 30px;
@@ -381,4 +386,25 @@ a {
 }
 
 /*Start Footer*/
+.footer {
+  width: 100%;
+  padding-top: 150px;
+}
+.footer .social-links i, .footer .social-links svg {
+  font-size: 20px;
+  background-color: black;
+  padding: 10px;
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.footer .social-links i:hover, .footer .social-links svg:hover {
+  background-color: #ffa500;
+}
+.footer .copyright {
+  padding-top: 20px;
+}
 /*End Footer*//*# sourceMappingURL=style.css.map */
