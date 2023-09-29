@@ -1,5 +1,3 @@
-Certainly! Here's your README.md file updated with the link to your hosted travel website:
-
 # Travel Website Project
 
 ![Travel Website Screenshot](/assets/images/travel-website-7-768x432.png)
