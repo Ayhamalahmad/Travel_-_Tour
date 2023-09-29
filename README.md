@@ -3,7 +3,7 @@ Certainly! Here's your README.md file updated with the link to your hosted trave
 ```markdown
 # Travel Website Project
 
-![Travel Website Screenshot](/assets/images/screenshot.png)
+![Travel Website Screenshot](/assets/images/travel-website-7-768x432.png)
 
 This is a simple travel website project built using HTML, CSS (including SCSS), and JavaScript, with the addition of the Bootstrap framework for styling.
 
