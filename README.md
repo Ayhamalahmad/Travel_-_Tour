@@ -52,7 +52,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact us at [ayhamalahmadcontact@gmail.com](ayhamalahmadcontact@gmail.com).
+If you have any questions or feedback, feel free to contact us at ayhamalahmadcontact@gmail.com.
 
 ---
 
@@ -60,5 +60,4 @@ If you have any questions or feedback, feel free to contact us at [ayhamalahmadc
 
 ![Travel Logo](/assets/images/travel-icon.png)
 ```
-
 https://ayhamalahmad.github.io/Travel_-_Tour/
