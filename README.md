@@ -15,7 +15,7 @@ You can visit the live website [here](https://ayhamalahmad.github.io/Travel_-_To
 - Gallery with images
 - About Us section
 - Social media links
-- - **Supports both Dark and Light Modes**
+- Supports both Dark and Light Modes
 - ...
 
 ## Installation
@@ -56,9 +56,9 @@ If you have any questions or feedback, feel free to contact us at [email@example
 
 ---
 
-**Travel** is a project by [Your Name](https://github.com/yourusername).
+**Travel** is a project by [Ayham Alahmad](https://github.com/yourusername).
 
 ![Travel Logo](/assets/images/travel-icon.png)
 ```
 
-This updated README now includes a link to your live website for easy access.
+https://ayhamalahmad.github.io/Travel_-_Tour/
