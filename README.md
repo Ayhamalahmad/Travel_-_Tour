@@ -1,6 +1,5 @@
 Certainly! Here's your README.md file updated with the link to your hosted travel website:
 
-```markdown
 # Travel Website Project
 
 ![Travel Website Screenshot](/assets/images/travel-website-7-768x432.png)
@@ -26,7 +25,6 @@ You can visit the live website [here](https://ayhamalahmad.github.io/Travel_-_To
 1. Clone the repository.
    ```bash
    git clone https://github.com/yourusername/travel-website.git
-   ```
 
 2. Open the `index.html` file in your browser.
 
