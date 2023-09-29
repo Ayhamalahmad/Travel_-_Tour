@@ -39,7 +39,8 @@
       }
       .countries::after {
         content: " ";
-        color: $orange;
+        // color: $orange;
+        color: var(--orange);
         text-shadow: $text-primary-shadow;
         animation: changetext 10s infinite linear;
       }
@@ -91,10 +92,6 @@
       padding: 10px;
       letter-spacing: 2px;
       font-weight: 550;
-      // border-radius: 5px;
-      // background-color: $light;
-      // color: $dark;
-
     }
   }
 }

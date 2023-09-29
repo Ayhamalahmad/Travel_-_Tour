@@ -19,16 +19,20 @@
        
         i,svg{
             font-size: 20px;
-            background-color: $dark;
+            // background-color: $dark, var(--dark);
+            background-color:  var(--dark);
             padding: 10px;
-            color: $light;
+            // color: $light;
+            color: var(--light);
             margin-left: 10px;
             margin-bottom: 10px;
             border-radius: 5px;
             cursor: pointer;
             transition: $transition-2th;
             &:hover{
-                background-color: $orange;
+                // background-color: $orange;
+                background-color: var(--orange);
+                color: var(--dark);
 
             }
         }

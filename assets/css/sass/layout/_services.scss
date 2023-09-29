@@ -1,7 +1,9 @@
 @use "../utils/variables" as *;
 .services{
-    background-color: $gray;
+    // background-color: $gray;
+    background-color: var(--gray);
     margin-top: 50px;
+    padding-bottom: 21px;
     .container{
 
 .main-text{
@@ -18,7 +20,8 @@
                 border: none;
                 i,svg{
                     font-size: 80px;
-                    color: $orange;
+                    // color: $orange;
+                    color: var(--orange);
                     margin-top: 20px;
                 }
                 .card-body{

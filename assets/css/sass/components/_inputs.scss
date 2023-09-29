@@ -1,7 +1,9 @@
 @use "../utils/variables" as *;
 textarea,input {
     &:focus{
-      border-color:$orange !important;
-      box-shadow:0 0 0 0.25rem  $Semi-Transparent-Orange !important;
+      // border-color:$orange !important;
+      border-color:var(--orange) !important;
+      // box-shadow:0 0 0 0.25rem  $Semi-Transparent-Orange !important;
+      box-shadow:0 0 0 0.25rem  var(--Semi-Transparent-Orange) !important;
     }
   }

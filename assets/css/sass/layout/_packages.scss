@@ -29,7 +29,8 @@
                     }
                     .star{
                         i,svg{
-                            color: $orange;
+                            // color: $orange;
+                            color: var(--orange);
 
                         }
                     }

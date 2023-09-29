@@ -8,17 +8,35 @@ $minMedium: "(min-width:992px)";
 $minLarge: "(min-width:1200px)";
 
 // Colors
-// Colors
+body {
+  --dark: black;
+  --orange: #ffa500;
+  --Semi-Transparent-Orange: rgba(255, 165, 0, 0.5);
+  --gray: #f9f9f9;
+  --light: #fff;
+  --mustard: #eec048;
+  //
+}
+body[data-bs-theme="dark"] {
+  --dark: white; /* Adjusted dark color */
+  --orange: #ff6600; /* Adjusted orange color */
+  --Semi-Transparent-Orange: rgba(
+    255,
+    102,
+    0,
+    0.5
+  ); /* Adjusted semi-transparent orange color */
+  --gray: #333; /* Adjusted gray color */
+  --light: #000; /* Adjusted light color */
+  --mustard: #c98f1f;
+}
+
 $dark: black;
 $orange: #ffa500;
 $Semi-Transparent-Orange: rgb(255 165 0 / 50%);
 $gray: #f9f9f9;
 $light: #fff;
 
-$primary: #0d2f3f;
-$bg-primary: #f8f7f1;
-$secondary-white: #e7e7e7;
-$teal: #286f6c;
 $mustard: #eec048;
 $coral: #f26440;
 $custom-color: #0000000d;
@@ -34,11 +52,11 @@ $softBlack: rgba(0, 0, 0, 0.1);
 $primary-shadow: 0 4px 4px $semi-transparent-black;
 $secondary-shadow: 0px 21px 13px $semi-transparent-black;
 $th3-shadow: 0 21px 13px $transparent-black;
-$th4-shadow: $lightBlack -3px 11px 13px 0px;
-$th6-shadow: 0px 5px 5px -6px $dark;
+$th4-shadow: $lightGray -3px 11px 13px 0px;
+$th6-shadow: 0px 5px 5px -6px var(--dark);
 $th7-shadow: $softBlack 0px 4px 12px;
 // text shadows
-$text-primary-shadow: 0px 1px 1px $dark;
+$text-primary-shadow: 0px 1px 1px var(--dark);
 // transitions
 $transition-1th: 0.3s ease;
 $transition-2th: 0.5s ease;

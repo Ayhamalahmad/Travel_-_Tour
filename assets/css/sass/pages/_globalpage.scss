@@ -61,13 +61,16 @@ a {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background-color: $gray;
+  // background-color: $gray;
+  background-color: var(--gray);
   cursor: pointer;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: $orange;
+  // background-color: $orange;
+  background-color: var(--orange);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: $Semi-Transparent-Orange;
+  // background-color: $Semi-Transparent-Orange;
+  background-color: var(--Semi-Transparent-Orange);
 }

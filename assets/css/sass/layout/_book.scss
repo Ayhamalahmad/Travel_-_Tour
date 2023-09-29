@@ -1,6 +1,7 @@
 @use "../utils/variables" as *;
 .book {
-  background-color: $gray;
+  // background-color: $gray;
+  background-color: var(--gray);
   padding: 50px;
   @media #{$maxMobile} {
     padding: 0;

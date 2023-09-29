@@ -6,7 +6,8 @@
 //    height: 100vh;
 //    margin-top: 50px;
 padding: 50px;
-background-color: $gray;
+// background-color: $gray;
+background-color: var(--gray);
 @media #{$maxMobile} {
        padding: 10px;
     

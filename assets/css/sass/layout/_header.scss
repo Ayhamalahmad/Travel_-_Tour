@@ -1,21 +1,31 @@
 @use "../utils/mixins" as *;
 @use "../utils/variables" as *;
 .navbar {
-  background-color: $gray;
+  // background-color: $gray;
+  background-color: var(--gray);
   .container {
     .navbar-brand {
-      font-weight: 550;
-      font-size: 36px;
-      color: $dark;
+      // font-size: 36px;
+      // font-weight: 550;
+      font: {
+        size: 36px;
+        weight: 550;
+      };
+      // color: $dark;
+      color: var(--dark);
       text-shadow: $text-primary-shadow;
       margin-bottom: 5px;
+     
       span {
-        color: $orange;
+        // color: $orange;
+        color: var(--orange);
       }
+    
     }
     .navbar-toggler {
       .menu-icon {
-        color: $orange;
+        // color: $orange;
+        color: var(--orange);
       }
     }
     .collapse {
@@ -27,33 +37,42 @@
             font-size: 16px;
             font-weight: 550;
             border-radius: 3px;
-            color: $dark;
+            // color: $dark;
+            color: var(--dark);
             transition: $transition-1th;
             &:hover {
-              background: $mustard;
+              // background: $mustard;
+              background: var(--mustard);
               color: $light;
+            }
+          }
+        }
+        .dropdown{
+          @media #{$maxSmall} {
+            margin-bottom: 10px;
+          }
+          button{
+            background-color: var(--gray) !important;
+            color: var(--dark);
+  
+          }
+          .dropdown-menu{
+            li{
+              cursor: pointer;
+              i,svg{
+                padding: 0 10px;
+                &.light{
+                  color: var(--orange);
+                }
+                &.dark{
+                  color: var(--dark);
+                }
+              }
             }
           }
         }
       }
       form {
-        // input {
-        //   &:focus{
-        //     border-color:$orange !important;
-        //     box-shadow:0 0 0 0.25rem  $Semi-Transparent-Orange !important;
-        //   }
-        // }
-        // button {
-        //   background-color: $orange;
-        //   color: $light;
-        //   outline: none;
-        //   border: none;
-        //   transition: $transition-1th;
-        //   &:hover {
-        //     background-color: $light;
-        //     color: $orange;
-        //   }
-        // }
       }
     }
   }

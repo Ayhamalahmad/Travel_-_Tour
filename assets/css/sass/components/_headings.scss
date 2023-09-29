@@ -6,7 +6,8 @@
       font-weight: 600;
       text-transform: capitalize;
       span {
-        color: $orange;
+        // color: $orange;
+        color: var(--orange);
       }
     }
   }
