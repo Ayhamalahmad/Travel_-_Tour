@@ -52,11 +52,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact us at [email@example.com](mailto:email@example.com).
+If you have any questions or feedback, feel free to contact us at [email@example.com](ayhamalahmadcontact@gmail.com).
 
 ---
 
-**Travel** is a project by [Ayham Alahmad](https://github.com/yourusername).
+**Travel** is a project by [Ayham Alahmad](https://github.com/Ayhamalahmad).
 
 ![Travel Logo](/assets/images/travel-icon.png)
 ```
