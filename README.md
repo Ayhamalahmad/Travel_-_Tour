@@ -18,6 +18,7 @@ You can visit the live website [here](https://ayhamalahmad.github.io/Travel_-_To
 - Gallery with images
 - About Us section
 - Social media links
+- - **Supports both Dark and Light Modes**
 - ...
 
 ## Installation
