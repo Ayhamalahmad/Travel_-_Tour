@@ -374,7 +374,7 @@ a {
   }
 }
 .home .go-down i, .home .go-down svg {
-  color: var(--gray);
+  color: #fff;
   font-size: 30px;
 }
 .home .content {
