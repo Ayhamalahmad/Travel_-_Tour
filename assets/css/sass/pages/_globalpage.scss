@@ -13,6 +13,30 @@ a {
   text-decoration: none;
 }
 
+// go up 
+.go-up{
+  position: fixed;
+  right: -100%;
+  bottom: 40px;
+  z-index: 100;
+  z-index: 99;
+  cursor: pointer;
+  display: none;
+  transition: all  $transition-2th;
+  opacity: 0;
+  &.active{
+    opacity: 1;
+    display: initial;
+    right: 40px;
+  }
+  i,svg{
+    color: var(--orange);
+  font-size: 30px;
+  transition: all  $transition-2th;
+
+  }
+
+}
 // used
 .paddings {
   padding-left: 1.5rem;

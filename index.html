@@ -27,6 +27,8 @@
     <title>Travel</title>
   </head>
   <body>
+    <a href="#home" class="go-up"><i class="fas fa-arrow-circle-up"></i></a>
+
     <!-- Start Navber -->
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
       <div class="container">
@@ -61,21 +63,17 @@
             <li class="nav-item">
               <a class="nav-link" href="#about">about</a>
             </li>
-            <li>
-              <div class="dropdown">
-                <button
-                  class="border-0 btn btn-secondary dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                Toggle theme
-                </button>
-                <ul class="dropdown-menu">
+            <li class="nav-item">
+              <button class="border-0 btn nav-link theme-togler" type="button">
+                <i class="fas fa-moon icon"></i> 
+                <span>dark</span>
+              </button>
+              <!-- <div class="dropdown"> -->
+              <!-- <ul class="dropdown-menu">
                   <li class="dropdown-item dark"><i class="fas fa-moon dark"></i>  Dark</li>
                   <li class="dropdown-item light"> <i class="fas fa-sun light"></i> Light</li>
                 </ul>
-              </div>
+              </div> -->
             </li>
           </ul>
           <form class="d-flex mt-2 mt-md-0" role="search">
@@ -100,6 +98,8 @@
 
     <!-- Start landing -->
     <section class="home" id="home">
+    <a href="#footer" class="go-down"><i class="fas fa-angle-double-down"></i></a>
+
       <div class="content container-sm">
         <h5 class="text-capitalize">welcome to world</h5>
         <h1 class="text-capitalize">visit <span class="countries"></span></h1>

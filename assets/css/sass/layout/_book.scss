@@ -47,7 +47,7 @@
          font-weight: 550;
          width: 160px;
          &:hover{
-            width: 170px;
+            // width: 170px;
          }
          @media #{$maxMobile} {
             width: 100%;
