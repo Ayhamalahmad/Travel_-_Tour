@@ -1,16 +1,13 @@
 @use "../utils/variables" as *;
 .main-btn {
-  // background-color: $orange,var(--orange);
   background-color: var(--orange);
   color: $light;
-  // color: var(--light);
   outline: none;
   border: none;
   transition: $transition-2th;
-  &:hover {
-    background-color: $light;
-    // background-color: var(--light);
-    // color: $orange;
-    color: var(--orange);
+  &:hover,&:active {
+    background-color: $light !important;
+    color: var(--orange) !important;
   }
+
 }
